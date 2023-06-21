@@ -1,7 +1,4 @@
 #include<iostream>
-
-
-
 using namespace std;
 
 string arr1[20],arr2[20],arr3[20],arr4[20],arr5[20];
@@ -9,11 +6,11 @@ string arr1[20],arr2[20],arr3[20],arr4[20],arr5[20];
 int total=0;
 
 void enter()
-
 {
 
 		int ch=0;
-
+			cout<<"Welcome to Students' Information App!!!\n";
+	
 			cout<<"How many students do u want to enter??"<<endl;
 
 			cin>>ch;
@@ -93,9 +90,6 @@ void enter()
 			total=ch+total;
 
 			}
-
-	
-
 }
 
 void show()
